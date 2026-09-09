@@ -15,4 +15,4 @@ Describe the new game or meaningful improvements.
 - [ ] Source repository is public.
 - [ ] Cover image is mine or I have permission to use it.
 - [ ] Release notes have an accurate version/commit and UTC timestamp.
-- [ ] `npm run validate:games` passes.
+- [ ] Listing validation passes (in GitHub's PR checks or locally with `npm run validate:games`).
