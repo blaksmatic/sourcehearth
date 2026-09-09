@@ -1,0 +1,26 @@
+{
+  "name": "sourcehearth",
+  "account_id": "c0cf91df8faeb583679081f6f2f4cf19",
+  "compatibility_date": "2026-05-15",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "sourcehearth.com",
+      "custom_domain": true,
+      "zone_id": "b3887664cfc1c30d04d507b5a993fb03"
+    },
+    {
+      "pattern": "www.sourcehearth.com",
+      "custom_domain": true,
+      "zone_id": "b3887664cfc1c30d04d507b5a993fb03"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sourcehearth-production",
+      "database_id": "4ac75677-7414-4f15-8b71-80043a877265",
+      "migrations_dir": "../../drizzle"
+    }
+  ]
+}

@@ -25,6 +25,6 @@ npm run build
 
 Listings are bundled automatically from `games/*.json`. The featured game is currently curated in `app/page.tsx`. D1 stores feedback, not game metadata or game files. Feedback is private pending review; there is no public comment feed or monetization system.
 
-Hosting uses Cloudflare Workers through Sites. The current site preview is private; this repository and the games linked here are public. GitHub Pages hosts Universe Eater, but cannot run SourceHearth's D1 feedback endpoint. For a separate deployment, use your own Sites project identity and database; do not reuse the original project's ID in `.openai/hosting.json`.
+Production hosting uses Cloudflare Workers and D1 in the SourceHearth account. GitHub Pages hosts Universe Eater; it cannot run SourceHearth's feedback endpoint. A separate private Sites preview is retained for design work.
 
-Pull-request checks validate listing structure and compile the site. Merging a pull request does not yet automatically publish the hosted site; deployment is maintained separately.
+Pull requests validate listings, typecheck, build, and test migrations locally. Once the deployment token is configured, pushes to `main` automatically migrate D1, publish to `sourcehearth.com`, and verify the live revision. See [DEPLOYMENT.md](DEPLOYMENT.md) for credential setup, operations, and recovery.

@@ -13,7 +13,9 @@
     "format": "oxfmt",
     "db:generate": "drizzle-kit generate",
     "validate:games": "node scripts/validate-games.mjs",
-    "prebuild": "npm run validate:games"
+    "prebuild": "npm run validate:games",
+    "prepare:deploy": "node scripts/prepare-deploy.mjs",
+    "deploy:check": "node scripts/check-deployment.mjs"
   },
   "dependencies": {
     "react": "19.2.6",
