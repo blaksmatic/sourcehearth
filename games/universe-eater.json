@@ -1,0 +1,16 @@
+{
+  "id": "universe-eater",
+  "title": "Universe Eater: Ascension",
+  "description": "Survive the void, draft weapon upgrades, and defeat the Void Warden in a neon space survival arcade.",
+  "creator": "blaksmatic",
+  "tags": ["Arcade", "Survival", "Mobile"],
+  "model": "AI-assisted",
+  "art": "universe",
+  "playUrl": "https://blaksmatic.github.io/universe-eater/",
+  "repoUrl": "https://github.com/blaksmatic/universe-eater",
+  "releases": [
+    {"version": "b23a7db", "timestamp": "2026-09-08T00:59:47Z", "title": "Mobile controls and encounter polish", "sourceUrl": "https://github.com/blaksmatic/universe-eater/commit/b23a7dbd412976dd63fa81c2ddc81acca7f84154", "changes": [{"type": "Changed", "text": "Polished mobile controls, encounter pacing, and weapon evolutions."}]},
+    {"version": "4d648ab", "timestamp": "2026-09-08T00:44:50Z", "title": "Cosmic survival redesign", "sourceUrl": "https://github.com/blaksmatic/universe-eater/commit/4d648ab40e9a2e21b1e5768b88ec64152d29aa27", "changes": [{"type": "Changed", "text": "Redesigned cosmic survival gameplay and prepared a WeChat build."}]},
+    {"version": "18ec53e", "timestamp": "2026-08-25T04:47:18Z", "title": "Accessibility and performance", "sourceUrl": "https://github.com/blaksmatic/universe-eater/commit/18ec53ed0f50acbe95d5b90afc8f188661965b87", "changes": [{"type": "Added", "text": "Reduced-motion preferences and adjustable particle quality."}, {"type": "Changed", "text": "Improved combat balance, rendering budgets, and collision performance."}]}
+  ]
+}
