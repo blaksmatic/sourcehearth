@@ -1,6 +1,6 @@
 # Submit a game
 
-1. Host a free playable build at an HTTPS URL.
+1. Host a free playable build at an HTTPS URL. Options include [GitHub Pages](https://docs.github.com/en/pages/quickstart), [Vercel](https://vercel.com/docs/getting-started-with-vercel), and [Cloudflare Pages](https://developers.cloudflare.com/pages/get-started/). Use the public playable URL as `playUrl` in your listing.
 2. Fork this repository.
 3. Add `games/your-game-id.json`, using `games/universe-eater.json` as the working example.
 4. Add a cover image under `public/images/` and set `image` to its path (for example `/images/your-game.webp`). Use an image you own or have permission to share. Do not embed credentials or private information.

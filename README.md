@@ -20,6 +20,8 @@ Survive the void, draft weapon upgrades, and face the Void Warden in a neon spac
 
 **Host your game, add its listing, and open a pull request.** Your game stays on your hosting; SourceHearth gives players a page to discover it and follow its updates.
 
+Need somewhere to host it? Start with [GitHub Pages](https://docs.github.com/en/pages/quickstart), [Vercel](https://vercel.com/docs/getting-started-with-vercel), or [Cloudflare Pages](https://developers.cloudflare.com/pages/get-started/). Universe Eater uses GitHub Pages. Other hosts work too: put the public HTTPS link to your playable game in `playUrl`.
+
 Have these ready:
 
 - A free playable build at a public HTTPS URL.
